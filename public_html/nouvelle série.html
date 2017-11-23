@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/Style1.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+         <div>
+            <img src="image/banniere.png" alt=""/>
+        </div>
+        <div class="menu">
+            <a href="film.html">Liste de films</a>
+            <a href="serie.html">Liste des séries</a>
+            <a href="nouveau_film.html">Nouveau film</a>
+            <a href="nouvelle série.html">Nouvelle série</a>
+        </div>
+        <br>
+        <form>
+            <label>Titre du film</label>
+            <input type="text" name="titre">
+            <br>
+            <br>
+            <label>Synopsis</label>
+            <textarea name="synopsis"></textarea>
+            <br>
+            <br>
+            <label>genre</label>
+            <select name="genre_id">
+                <option value="1">Science fiction</option>
+                <option value="2">Horreur</option>
+                <option value="3">Documentaire</option>
+            </select>
+            <br>
+            <br>
+            <label>Pays</label>
+            <select name="pays_id" multiple>
+                <option value="1">FR</option>
+                <option value="2">USA</option>
+                <option value="3">UK</option>
+                <option value="4">ENG</option>
+                <option value="5">AUS</option>
+                <option value="6">DE</option>
+            </select>
+            <br>
+            <br>
+            <label>Année de production</label>
+            <input type="number" min="1900" max="2017"/>
+            <br>
+            <br>
+            <label>Numéro de saison</label>
+            <input type="number" min="0" max="30"/>
+            <br>
+            <br>
+            <label>Numéro de épisode</label>
+            <input type="number" min="0" max="30"/>
+            <br>
+            <br>
+            <label>Couleur</label>
+            <input type="color"/>
+            <br>
+            <br>
+            <label>Valider</label>
+            <input type="submit" value="Ajouiter"/>
+        </form>
+        <div class="pied">
+            Copyright 2017 Streaming 
+        </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 nov. 2017, 09:55:10
+    Author     : Administrateur
+*/
+
+img{
+    width: 100%
+}
+
+table tr:nth-of-type(1) td:nth-of-type(1){
+    background-color: red;
+}
+
+table tr:nth-of-type(2) td:nth-of-type(2){
+    background-color: yellow;
+}
+
+table tr:nth-of-type(3) td:nth-of-type(1){
+    background-color: greenyellow;
+}
+
+form{
+    background-color: bisque;
+    color: ivory;
+    text-align: center;
+    padding-bottom: 1px;
+    color: black;
+}
+
+
+.menu{
+    background-color: bisque;
+    color: ivory;
+    font-family: fantasy;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+a{
+    font-size: xx-large;
+}
+
+.contenu{
+    background-color: bisque;
+    color: ivory;
+    text-align: center;
+    margin: auto;
+    
+}
+
+table{
+    border-color: black;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    
+    margin: auto;
+    background-color: bisque;
+    color: black;
+    
+}
+.pied{
+    background-color: aquamarine;
+    font-family: cursive;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+}
+
